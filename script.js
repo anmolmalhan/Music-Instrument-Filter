@@ -20,6 +20,7 @@ function instrumentCards(instrumentCategory) {
       : instrumentsArr.filter(
           ({ category }) => category === instrumentCategory
         );
+        
 
   return instruments
     .map(({ instrument, price }) => {
